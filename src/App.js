@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./Components/Header/Header";
+import "./App.sass";
 
 function App() {
-  return <div className="App">serduck</div>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
