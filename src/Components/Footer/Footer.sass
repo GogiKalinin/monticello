@@ -1,14 +1,17 @@
 .Footer
-  height: 120vh
-
-.FooterEnd
-  background: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%)
-  padding-left: 415px
-  padding-right: 415px
   display: flex
-  flex-direction: column
+  // align-items: center
   justify-content: center
-  height: 50vh
+  flex-direction: column
+  width: 100%
+  .FooterEnd
+    background: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%)
+    padding-left: 415px
+    padding-right: 415px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 50vh
 
 .FooterEndNavigation
   display: flex
@@ -16,6 +19,13 @@
 
 .FooterEndNavigationSocialsBlock
   display: flex
+
+.SocialsItem
+  margin-left: 20px
+  cursor: pointer
+
+.FooterEndNavigationLogo
+  cursor: pointer
 
 .FooterEndCopyright
   font-family: 'Montserrat'
@@ -26,11 +36,4 @@
   color: #FFFFFF
   margin-top: 41px
 
-.FooterGetInTouch
-  position: absolute
-  background: #fff
-  // width: 770px
-  height: 450px
-  display: flex
-  left: 50%
-  transform: translate(-50%, -50%)
+.GetInTouchContainer

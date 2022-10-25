@@ -5,11 +5,12 @@ import {
   Logo,
   TwitterIcon,
 } from "../../Images/HeaderImages/HeaderSVG";
+import GetInTouch from "../GetInTouch/GetInTouch";
 import "./Footer.sass";
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className="Footer" id="block4">
       <div className="FooterMap">
         <iframe
           title="map"
@@ -23,8 +24,8 @@ const Footer = () => {
           marginWidth="0"
         ></iframe>
       </div>
-      <div className="FooterGetInTouch">
-        <div className="GetInTouchTitle">get in touch</div>
+      <div className="GetInTouchContainer">
+        <GetInTouch />
       </div>
       <div className="FooterEnd">
         <div className="FooterEndNavigation">

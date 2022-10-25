@@ -13,10 +13,18 @@ const Header = () => {
       <div className="HeaderNavigation">
         <div className="HeaderNavigationLogo">{Logo}</div>
         <div className="HeaderNavigationNavBlock">
-          <div className="NavBlockItem">About us</div>
-          <div className="NavBlockItem">Projects</div>
-          <div className="NavBlockItem">News</div>
-          <div className="NavBlockItem">Contact</div>
+          <a href="#block1" className="NavBlockItem">
+            About us
+          </a>
+          <a href="#block2" className="NavBlockItem">
+            Projects
+          </a>
+          <a href="#block3" className="NavBlockItem">
+            News
+          </a>
+          <a href="#block4" className="NavBlockItem">
+            Contact
+          </a>
         </div>
         <div className="HeaderNavigationSocialsBlock">
           <div className="SocialBlockItem">{FbIcon}</div>
