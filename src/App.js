@@ -9,6 +9,7 @@ function App() {
       <Header />
       <LatestNews />
       <Footer />
+      <h1></h1>
     </div>
   );
 }
