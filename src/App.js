@@ -2,14 +2,15 @@ import Header from "./Components/Header/Header";
 import "./App.sass";
 import Footer from "./Components/Footer/Footer";
 import LatestNews from "./Components/LatestNews/LatestNews";
+import { WhatWeDo } from "./Components/WhatWeDo/WhatWeDo";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <WhatWeDo />
       <LatestNews />
       <Footer />
-      <h1></h1>
     </div>
   );
 }
