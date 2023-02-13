@@ -7,6 +7,8 @@ import {
 } from "../../Images/HeaderImages/HeaderSVG";
 import GetInTouch from "../GetInTouch/GetInTouch";
 import "./Footer.sass";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Footer = () => {
   return (
@@ -38,6 +40,7 @@ const Footer = () => {
         </div>
         <div className="FooterEndCopyright">
           <p>Copyrights © 2020 Montichello</p>
+          <button onClick={()=>scroll.scrollToTop()}>scroll</button>
         </div>
       </div>
     </div>
